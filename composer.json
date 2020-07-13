@@ -7,6 +7,10 @@
     "homepage": "https://twitteroauth.com",
     "authors": [
         {
+            "name": "Catherine Koo",
+            "email": "catherinek@neoseeker.com"
+        },
+        {
             "name": "Abraham Williams",
             "email": "abraham@abrah.am",
             "homepage": "https://abrah.am",
@@ -26,6 +30,12 @@
         "squizlabs/php_codesniffer": "~3.0",
         "phpmd/phpmd": "~2.6"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Neoseeker/twitteroauth"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Abraham\\TwitterOAuth\\": "src"
